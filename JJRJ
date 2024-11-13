@@ -1,0 +1,143 @@
+Aqui está o código HTML para a sua página. Esse código inclui uma estrutura para destacar seus produtos, um logotipo, um inquérito para compradores, e os botões para compra e WhatsApp.
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJRJ - Desenvolvimento Pessoal e Financeiro</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .logo {
+            font-weight: bold;
+            color: #1a73e8; /* Azul */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .product {
+            background-color: #e0f7fa; /* Azul claro */
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product h2 {
+            color: #1a73e8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+        }
+        .btn-buy {
+            background-color: #4caf50; /* Verde */
+        }
+        .btn-whatsapp {
+            background-color: #25d366;
+        }
+        /* Estilos para o inquérito */
+        .survey {
+            background-color: #f9fbe7;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .survey h3 {
+            color: #333;
+        }
+        .survey label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+        .survey textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        .survey button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><span class="logo">JJRJ</span> Desenvolvimento Pessoal e Financeiro</h1>
+</header>
+
+<div class="container">
+    <!-- Produto 1 -->
+    <div class="product">
+        <h2>Renda Extra e Marketing Digital: Seu Guia para o Sucesso</h2>
+        <p>Aprenda as estratégias fundamentais para criar uma renda extra com marketing digital e alcance seu potencial financeiro.</p>
+        <a href="https://pay.kuenha.com/15411302-7817-4fd7-aed4-95eaef09057d" class="btn btn-buy">Adquirir Produto 1</a>
+    </div>
+
+    <!-- Produto 2 -->
+    <div class="product">
+        <h2>Desenvolvimento Pessoal e Financeiro</h2>
+        <p>Transforme sua vida e aprenda a gerenciar suas finanças para alcançar o sucesso e a liberdade financeira.</p>
+        <a href="https://pay.kuenha.com/1f9a7091-84e0-4e64-a2ff-bbe4af17c0c0" class="btn btn-buy">Adquirir Produto 2</a>
+    </div>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/244934576265" class="btn btn-whatsapp">Fale Conosco pelo WhatsApp</a>
+
+    <!-- Inquérito -->
+    <div class="survey">
+        <h3>Ajude-nos a entender melhor!</h3>
+        <form>
+            <label for="motivo">O que o motivou a adquirir nosso eBook?</label>
+            <textarea id="motivo" rows="4" placeholder="Compartilhe suas razões"></textarea>
+            <button type="submit">Enviar Resposta</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
+Explicação dos Elementos:
+
+Header: Inclui o logotipo "JJRJ" e título.
+
+Produtos: Cada infoproduto é destacado com nome, descrição e botão de compra.
+
+Botão de WhatsApp: Redireciona para o seu contato diretamente no WhatsApp.
+
+Inquérito: Inclui um campo para coletar feedback dos compradores.
+
+
+Este código HTML pode ser usado diretamente num navegador para ver a página.
+
